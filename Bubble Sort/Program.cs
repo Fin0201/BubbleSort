@@ -8,7 +8,7 @@ namespace ConsoleApp5
         static void Main(string[] args)
         {
             //Bubble sort algorithm
-            int[] numberArray = { 7, 34, 16, 2, 37, 16, 10, 67, 43, 29, 12, 5, 91, 1 }; //The array that will be sorted
+            int[] numberArray = { 7, 34, 16, 91, 37, 16, 10, 67, 7, 12, 12, 1, 5, 91 }; //The array that will be sorted
 
             numberArray = numberArray.Distinct().ToArray(); //Removes duplicate values
             int arrayLength = numberArray.Length; //Calculates the length of the array.
